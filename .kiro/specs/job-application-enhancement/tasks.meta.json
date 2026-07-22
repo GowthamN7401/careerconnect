@@ -1,0 +1,218 @@
+{
+  "pbtResults": {},
+  "executionHistory": {
+    "1. Add applicant-card and apply-page CSS to the shared stylesheet": [
+      {
+        "executionId": "54044931-3fa5-46f0-a26f-555eb51db6a2",
+        "chatSessionId": "sess_dc169773-be45-4054-ac50-41b123f7ee5b",
+        "timestamp": 1784698650119
+      },
+      {
+        "executionId": "54044931-3fa5-46f0-a26f-555eb51db6a2",
+        "chatSessionId": "sess_dc169773-be45-4054-ac50-41b123f7ee5b",
+        "timestamp": 1784698664580
+      },
+      {
+        "executionId": "54044931-3fa5-46f0-a26f-555eb51db6a2",
+        "chatSessionId": "sess_dc169773-be45-4054-ac50-41b123f7ee5b",
+        "timestamp": 1784698744736
+      }
+    ],
+    "2. Remove inline `<style>` blocks from HTML files": [
+      {
+        "executionId": "54044931-3fa5-46f0-a26f-555eb51db6a2",
+        "chatSessionId": "sess_dc169773-be45-4054-ac50-41b123f7ee5b",
+        "timestamp": 1784698651330
+      },
+      {
+        "executionId": "54044931-3fa5-46f0-a26f-555eb51db6a2",
+        "chatSessionId": "sess_dc169773-be45-4054-ac50-41b123f7ee5b",
+        "timestamp": 1784698755681
+      },
+      {
+        "executionId": "54044931-3fa5-46f0-a26f-555eb51db6a2",
+        "chatSessionId": "sess_dc169773-be45-4054-ac50-41b123f7ee5b",
+        "timestamp": 1784698812472
+      }
+    ],
+    "3. Fix the broken \"Apply\" navbar link in `my-applications.html`": [
+      {
+        "executionId": "54044931-3fa5-46f0-a26f-555eb51db6a2",
+        "chatSessionId": "sess_dc169773-be45-4054-ac50-41b123f7ee5b",
+        "timestamp": 1784698651687
+      },
+      {
+        "executionId": "54044931-3fa5-46f0-a26f-555eb51db6a2",
+        "chatSessionId": "sess_dc169773-be45-4054-ac50-41b123f7ee5b",
+        "timestamp": 1784698886418
+      },
+      {
+        "executionId": "54044931-3fa5-46f0-a26f-555eb51db6a2",
+        "chatSessionId": "sess_dc169773-be45-4054-ac50-41b123f7ee5b",
+        "timestamp": 1784698893633
+      }
+    ],
+    "4. Fix resume file-type `accept` attribute in `register.html`": [
+      {
+        "executionId": "54044931-3fa5-46f0-a26f-555eb51db6a2",
+        "chatSessionId": "sess_dc169773-be45-4054-ac50-41b123f7ee5b",
+        "timestamp": 1784698651959
+      },
+      {
+        "executionId": "54044931-3fa5-46f0-a26f-555eb51db6a2",
+        "chatSessionId": "sess_dc169773-be45-4054-ac50-41b123f7ee5b",
+        "timestamp": 1784698899418
+      },
+      {
+        "executionId": "54044931-3fa5-46f0-a26f-555eb51db6a2",
+        "chatSessionId": "sess_dc169773-be45-4054-ac50-41b123f7ee5b",
+        "timestamp": 1784698905668
+      }
+    ],
+    "5. Checkpoint — visual smoke test": [
+      {
+        "executionId": "54044931-3fa5-46f0-a26f-555eb51db6a2",
+        "chatSessionId": "sess_dc169773-be45-4054-ac50-41b123f7ee5b",
+        "timestamp": 1784698652315
+      },
+      {
+        "executionId": "54044931-3fa5-46f0-a26f-555eb51db6a2",
+        "chatSessionId": "sess_dc169773-be45-4054-ac50-41b123f7ee5b",
+        "timestamp": 1784698910501
+      },
+      {
+        "executionId": "54044931-3fa5-46f0-a26f-555eb51db6a2",
+        "chatSessionId": "sess_dc169773-be45-4054-ac50-41b123f7ee5b",
+        "timestamp": 1784698916901
+      }
+    ],
+    "6.1 Test `hasAlreadyApplied` returns `true` when a record with matching": [
+      {
+        "executionId": "54044931-3fa5-46f0-a26f-555eb51db6a2",
+        "chatSessionId": "sess_dc169773-be45-4054-ac50-41b123f7ee5b",
+        "timestamp": 1784698652720
+      },
+      {
+        "executionId": "54044931-3fa5-46f0-a26f-555eb51db6a2",
+        "chatSessionId": "sess_dc169773-be45-4054-ac50-41b123f7ee5b",
+        "timestamp": 1784698925623
+      },
+      {
+        "executionId": "abda7636-b38f-466d-95a3-bf8f382c5acf",
+        "chatSessionId": "sess_dc169773-be45-4054-ac50-41b123f7ee5b",
+        "timestamp": 1784706805881
+      },
+      {
+        "executionId": "abda7636-b38f-466d-95a3-bf8f382c5acf",
+        "chatSessionId": "sess_dc169773-be45-4054-ac50-41b123f7ee5b",
+        "timestamp": 1784706817660
+      },
+      {
+        "executionId": "abda7636-b38f-466d-95a3-bf8f382c5acf",
+        "chatSessionId": "sess_dc169773-be45-4054-ac50-41b123f7ee5b",
+        "timestamp": 1784706888437
+      }
+    ],
+    "6.2 Test `hasAlreadyApplied` returns `false` when no matching record exists": [
+      {
+        "executionId": "54044931-3fa5-46f0-a26f-555eb51db6a2",
+        "chatSessionId": "sess_dc169773-be45-4054-ac50-41b123f7ee5b",
+        "timestamp": 1784698652981
+      },
+      {
+        "executionId": "abda7636-b38f-466d-95a3-bf8f382c5acf",
+        "chatSessionId": "sess_dc169773-be45-4054-ac50-41b123f7ee5b",
+        "timestamp": 1784706806657
+      },
+      {
+        "executionId": "abda7636-b38f-466d-95a3-bf8f382c5acf",
+        "chatSessionId": "sess_dc169773-be45-4054-ac50-41b123f7ee5b",
+        "timestamp": 1784706834508
+      },
+      {
+        "executionId": "abda7636-b38f-466d-95a3-bf8f382c5acf",
+        "chatSessionId": "sess_dc169773-be45-4054-ac50-41b123f7ee5b",
+        "timestamp": 1784706894471
+      }
+    ],
+    "8. Final checkpoint — run all tests": [
+      {
+        "executionId": "54044931-3fa5-46f0-a26f-555eb51db6a2",
+        "chatSessionId": "sess_dc169773-be45-4054-ac50-41b123f7ee5b",
+        "timestamp": 1784698653319
+      },
+      {
+        "executionId": "abda7636-b38f-466d-95a3-bf8f382c5acf",
+        "chatSessionId": "sess_dc169773-be45-4054-ac50-41b123f7ee5b",
+        "timestamp": 1784706806854
+      },
+      {
+        "executionId": "abda7636-b38f-466d-95a3-bf8f382c5acf",
+        "chatSessionId": "sess_dc169773-be45-4054-ac50-41b123f7ee5b",
+        "timestamp": 1784707010798
+      },
+      {
+        "executionId": "abda7636-b38f-466d-95a3-bf8f382c5acf",
+        "chatSessionId": "sess_dc169773-be45-4054-ac50-41b123f7ee5b",
+        "timestamp": 1784708767150
+      }
+    ],
+    "6. Write unit tests for ApplicationService": [
+      {
+        "executionId": "abda7636-b38f-466d-95a3-bf8f382c5acf",
+        "chatSessionId": "sess_dc169773-be45-4054-ac50-41b123f7ee5b",
+        "timestamp": 1784706894581
+      }
+    ],
+    "6.3 Test `applyToJob` sets `status` to `\"APPLIED\"` and `appliedAt` to a": [
+      {
+        "executionId": "abda7636-b38f-466d-95a3-bf8f382c5acf",
+        "chatSessionId": "sess_dc169773-be45-4054-ac50-41b123f7ee5b",
+        "timestamp": 1784706914950
+      }
+    ],
+    "6.4 Test `applyToJob` copies the job title from the resolved `Job` onto the entity": [
+      {
+        "executionId": "abda7636-b38f-466d-95a3-bf8f382c5acf",
+        "chatSessionId": "sess_dc169773-be45-4054-ac50-41b123f7ee5b",
+        "timestamp": 1784706916154
+      }
+    ],
+    "7. Write unit tests for ApplicationController duplicate-application guard": [
+      {
+        "executionId": "abda7636-b38f-466d-95a3-bf8f382c5acf",
+        "chatSessionId": "sess_dc169773-be45-4054-ac50-41b123f7ee5b",
+        "timestamp": 1784706916685
+      },
+      {
+        "executionId": "abda7636-b38f-466d-95a3-bf8f382c5acf",
+        "chatSessionId": "sess_dc169773-be45-4054-ac50-41b123f7ee5b",
+        "timestamp": 1784707004753
+      }
+    ],
+    "7.1 Test that `POST /api/applications` returns HTTP 400 with body": [
+      {
+        "executionId": "abda7636-b38f-466d-95a3-bf8f382c5acf",
+        "chatSessionId": "sess_dc169773-be45-4054-ac50-41b123f7ee5b",
+        "timestamp": 1784706917234
+      },
+      {
+        "executionId": "abda7636-b38f-466d-95a3-bf8f382c5acf",
+        "chatSessionId": "sess_dc169773-be45-4054-ac50-41b123f7ee5b",
+        "timestamp": 1784707004575
+      }
+    ],
+    "7.2 Test that `GET /api/applications/{id}/resume` returns HTTP 404 when": [
+      {
+        "executionId": "abda7636-b38f-466d-95a3-bf8f382c5acf",
+        "chatSessionId": "sess_dc169773-be45-4054-ac50-41b123f7ee5b",
+        "timestamp": 1784706918482
+      },
+      {
+        "executionId": "abda7636-b38f-466d-95a3-bf8f382c5acf",
+        "chatSessionId": "sess_dc169773-be45-4054-ac50-41b123f7ee5b",
+        "timestamp": 1784707005064
+      }
+    ]
+  }
+}

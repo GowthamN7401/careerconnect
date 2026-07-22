@@ -1,0 +1,94 @@
+﻿zzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzz       <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CareerConnect - Apply for Job</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+</head>
+<body>
+    <nav class="navbar">
+        <div class="logo">CareerConnect</div>
+        <ul>
+            <li><a href="jobseeker-dashboard.html"><i class="fa-solid fa-arrow-left"></i> Back to Jobs</a></li>
+            <li><a href="my-applications.html"><i class="fa-solid fa-file-lines"></i> My Applications</a></li>
+            <li><a href="login.html" id="logoutLink"><i class="fa-solid fa-right-from-bracket"></i> Logout</a></li>
+        </ul>
+    </nav>
+
+    <section class="dashboard-panel">
+        <div class="section-card">
+            <div id="successBanner" class="success-banner">
+                <i class="fa-solid fa-circle-check"></i> Applied Successfully! Redirecting to your applications...
+            </div>
+            <div id="errorBanner" class="error-banner"></div>
+
+            <div class="section-header">
+                <h2 id="jobTitleHeading">Loading job...</h2>
+            </div>
+
+            <div id="jobDetails" class="job-meta-grid"></div>
+
+            <hr class="divider">
+            <h3 style="margin-bottom:20px;color:#111827;">Your Application</h3>
+
+            <form id="applyForm" class="job-form" novalidate>
+                <div class="form-row">
+                    <div class="input-group">
+                        <label>Full Name</label>
+                        <input type="text" id="applicantName" readonly>
+                    </div>
+                    <div class="input-group">
+                        <label>Email Address</label>
+                        <input type="email" id="applicantEmail" readonly>
+                    </div>
+                </div>
+
+                <div class="form-row">
+                    <div class="input-group">
+                        <label>Age <span style="color:#ef4444">*</span></label>
+                        <input type="number" id="applicantAge" placeholder="e.g. 22" min="16" max="100" required>
+                    </div>
+                    <div class="input-group">
+                        <label>Highest Degree <span style="color:#ef4444">*</span></label>
+                        <input type="text" id="applicantDegree" placeholder="e.g. B.Tech Computer Science" required>
+                    </div>
+                </div>
+
+                <div class="input-group">
+                    <label>College / University <span style="color:#ef4444">*</span></label>
+                    <input type="text" id="applicantCollege" placeholder="e.g. Anna University, Chennai" required>
+                </div>
+
+                <div class="input-group">
+                    <label>Cover Letter / Additional Notes</label>
+                    <textarea id="coverLetter" rows="4" placeholder="Tell the employer why you are a great fit for this role..."></textarea>
+                </div>
+
+                <div class="input-group">
+                    <label>Recommendations / Achievements <span style="color:#64748b;font-weight:400;">(optional)</span></label>
+                    <textarea id="recommendations" rows="3" placeholder="Any certifications, projects, or recommendations..."></textarea>
+                </div>
+
+                <div class="input-group">
+                    <label>Resume <span style="color:#ef4444">*</span></label>
+                    <label class="resume-area" for="resumeUpload">
+                        <i class="fa-solid fa-file-arrow-up"></i>
+                        <p>Click to upload your resume</p>
+                        <p style="font-size:0.82rem;color:#94a3b8;">PDF or Word document, max 10 MB</p>
+                        <div id="resumeFileName">No file chosen</div>
+                        <input type="file" id="resumeUpload" accept=".pdf,.doc,.docx,application/pdf,application/msword,application/vnd.openxmlformats-officedocument.wordprocessingml.document">
+                    </label>
+                </div>
+
+                <button type="submit" class="btn-primary" id="submitBtn">
+                    <i class="fa-solid fa-paper-plane"></i> Submit Application
+                </button>
+            </form>
+        </div>
+    </section>
+
+    <script src="js/script.js"></script>
+</body>
+</html>
